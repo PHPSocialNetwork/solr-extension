@@ -38,6 +38,7 @@ try {
     });
     $cacheInstance = CacheManager::getInstance('Solr', include $configFileName);
     $testHelper->runCRUDTests($cacheInstance);
+    $testHelper->runGetAllItemsTests($cacheInstance);
 } catch (PhpfastcacheDriverConnectException $e) {
     $testHelper->assertSkip('Solr server unavailable: ' . $e->getMessage());
     $testHelper->terminateTest();

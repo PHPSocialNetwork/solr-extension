@@ -35,6 +35,9 @@
             "lib/ExtensionRegister.php"
         ]
     },
+    "conflict": {
+        "solarium/solarium": "<6.1"
+    },
     "scripts": {
         "phpcs": "vendor/bin/phpcs lib/ --report=summary",
         "phpcbf": "vendor/bin/phpcbf lib/ --report=summary",

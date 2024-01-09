@@ -1,4 +1,5 @@
 ## Contributing [![Solr extension tests](https://github.com/PHPSocialNetwork/solr-extension/actions/workflows/php.yml/badge.svg?branch=master)](https://github.com/PHPSocialNetwork/solr-extension/actions/workflows/php.yml)
+
 Merge requests are welcome but will require the tests plus the quality tools to pass:
 
 _(Commands must be run from the repository root)_
